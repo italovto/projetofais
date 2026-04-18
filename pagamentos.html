@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAIS - Pagamentos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard-layout">
+    <aside class="sidebar">
+      <header class="sidebar-top">
+        <h1>FAIS</h1>
+      </header>
+
+      <nav aria-label="Menu principal">
+        <ul class="menu-lista">
+          <li><a href="dashboard.html">Dashboard</a></li>
+          <li><a href="#">Ordem de Serviço</a></li>
+          <li><a href="pagamentos.html" class="ativo">Pagamentos</a></li>
+          <li><a href="#">Cadastros</a></li>
+          <li><a href="#">Relatórios</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="conteudo">
+      <header class="pagina-topo">
+        <h2>Pagamentos</h2>
+        <p>Preencha os dados do pagamento abaixo.</p>
+      </header>
+
+      <section class="card-form" aria-labelledby="titulo-form-pagamento">
+        <h3 id="titulo-form-pagamento">Cadastro de Pagamento</h3>
+
+        <form class="form-pagamento" action="#">
+          <div class="campo">
+            <label for="cod-interno">Cod. Interno</label>
+            <input type="text" id="cod-interno" name="cod-interno" required>
+          </div>
+
+          <div class="campo">
+            <label for="numero-os">Nº OS</label>
+            <input type="text" id="numero-os" name="numero-os" required>
+          </div>
+
+          <div class="campo">
+            <label for="data-pagamento">Data Pagamento</label>
+            <input type="date" id="data-pagamento" name="data-pagamento" required>
+          </div>
+
+          <div class="campo">
+            <label for="valor">Valor</label>
+            <input type="number" id="valor" name="valor" step="0.01" placeholder="0,00" required>
+          </div>
+
+          <div class="campo">
+            <label for="metodo-pagamento">Método de Pagamento</label>
+            <select id="metodo-pagamento" name="metodo-pagamento" required>
+              <option value="">Selecione</option>
+              <option value="pix">Pix</option>
+              <option value="cartao">Cartão</option>
+              <option value="boleto">Boleto</option>
+              <option value="transferencia">Transferência</option>
+              <option value="dinheiro">Dinheiro</option>
+            </select>
+          </div>
+
+          <div class="acoes-form">
+            <button type="button" class="btn secundario">Cancelar</button>
+            <button type="reset" class="btn limpar">Limpar</button>
+            <button type="submit" class="btn primario">Salvar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
