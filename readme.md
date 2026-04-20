@@ -1,1 +1,27 @@
-3 Páginas Web desenvolvidas com base no Projeto Integrador. É um sistema de gestão para um MEI. A ideia é abrir a tela de início que é o Login e ao clicar em entrar uma pessoa é direcionada para a tela do Dashboard que é uma tela onde centraliza dados e no menu lateral serão as principais funcionalidades do sistema. Foi desenvolvido somente a tela de Pagamentos no momento, portanto na tela do Dashboard a pessoa somente irá conseguir clicar na opção Pagamentos e ela será encaminhada para a última tela desenvolvida que é a de Pagamentos onde se responsabiliza pelo preenchimento dos dados de pagamentos.
+🎯 Sistema de Gestão para MEI
+📖 Descrição
+Sistema web desenvolvido com base no Projeto Integrador, voltado para a gestão de um MEI. A aplicação inicia com uma tela de Login e, ao acessar, o usuário é direcionado para o Dashboard, que centraliza informações e disponibiliza as principais funcionalidades por meio de um menu lateral. No momento, apenas a funcionalidade de Pagamentos está implementada.
+
+🚀 Como usar
+🔐 Acesse a tela de Login e clique em Entrar.
+
+📊 Após o login, você será direcionado para o Dashboard.
+
+📂 No menu lateral, selecione a opção Pagamentos.
+
+💰 Você será encaminhado para a tela de Pagamentos.
+
+📝 Preencha os dados necessários para registrar um pagamento.
+
+💻👍
+🌐 HTML → estrutura das páginas
+
+🎨 CSS → estilos visuais
+
+⚡ JavaScript → navegação e interações do sistema
+
+👩‍💻 Desenvolvido por
+Italo Vinicius
+
+🌐 Versão online
+Acesse https://italovto.github.io/projetofais/
